@@ -17,12 +17,20 @@ body{
 	}
 
 header{
+    align-content: center
     height: 20px;
     background: black; 
+    text-align: center;
+    color: white;
+    font-family:"proxima-nova-condensed-1","proxima-nova-condensed-2","Helvetica Neue","Arial";
+    font-size: 14px;
+    padding: 5px;
 }
 
 #container{
-    height: 500px;
+    height: 600px;
+    background:url(../images/grunge-bg-2.png);
+	border-top:6px solid #000;
 }
 
 footer{
@@ -32,5 +40,104 @@ footer{
 }
 
 footer p{
-    border-top: 1px solid black;
+    border-top: 2px solid grey;
+}
+
+/***-Game Section**/
+#GameSection{
+    text-align: center;
+    font-size: 14px;
+    color:black;
+}
+#Playedetails{
+    text-align: right;
+    margin: 5px;
+}
+.inputbox{
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 50%;
+    font-size: 15px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+#box{
+    text-align: right;
+    border: 2px solid #DADADA;
+    width: 350px;
+    height: 350px;    
+    -moz-box-shadow: 5px 5px 5px #6E6E6E;
+    -webkit-box-shadow: 5px 5px 5px #6E6E6E;
+    box-shadow: 5px 5px 5px #6E6E6E;
+}
+
+#box td{
+    width: 50px;
+    height: 50px;
+    border: 3px solid #DADADA;
+    cursor: pointer;
+}
+
+.hoverclass:hover{
+    width: 50px;
+    height: 50px;
+    border: 3px solid #DADADA;
+    cursor: pointer;
+    background: #E0F2F7;
+}
+
+.selected_cross{
+    background:  no-repeat url(../images/cross.png);    
+}
+.selected_dot{
+    background:  no-repeat url(../images/dot.png);    
+}
+#GameLog{
+    margin-left: 10px;
+    height: 300px;
+    color: green;
+    border-left: 2px solid #6E6E6E;
+    text-align: left;
+    padding-left: 20px;
+}
+.heading{
+    font-size: 20px; 
+}
+#GameLog ul{
+    margin-top: 10px;
+}
+sample{
+    
+}
+
+/*** Type Writing ***/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
