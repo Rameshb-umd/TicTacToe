@@ -1,0 +1,148 @@
+/* CSS RESET--- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;}
+
+
+/* HTML RESET--- */
+footer, header,section{
+	display:block; zoom:1;
+}
+
+/* GLOBAL --*/
+body{
+		background: white;
+		font-family:"proxima-nova-condensed-1","proxima-nova-condensed-2","Helvetica Neue","Arial";
+		font-size:16px;
+		letter-spacing:-0.1px;
+		color:#444;
+	}
+
+header{
+    align-content: center
+    height: 20px;
+    background: black; 
+    text-align: center;
+    color: white;
+    font-family:"proxima-nova-condensed-1","proxima-nova-condensed-2","Helvetica Neue","Arial";
+    font-size: 14px;
+    padding: 5px;
+}
+
+#container{
+    height: 600px;
+    background:url(../images/grunge-bg-2.png);
+	border-top:6px solid #000;
+}
+
+footer{
+    text-align: center;
+    font-family:"proxima-nova-condensed-1","proxima-nova-condensed-2","Helvetica Neue","Arial";
+    font-size:12px;
+}
+
+footer p{
+    border-top: 2px solid grey;
+}
+
+/***-Game Section**/
+#GameSection{
+    text-align: center;
+    font-size: 14px;
+    color:black;
+}
+#Playedetails{
+    text-align: right;
+    margin: 5px;
+}
+.inputbox{
+    border: 1px solid #DADADA;
+    color: green;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 50%;
+    font-size: 15px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+#box{
+    text-align: right;
+    border: 2px solid #DADADA;
+    width: 350px;
+    height: 350px;    
+    -moz-box-shadow: 5px 5px 5px #6E6E6E;
+    -webkit-box-shadow: 5px 5px 5px #6E6E6E;
+    box-shadow: 5px 5px 5px #6E6E6E;
+}
+
+#box td{
+    width: 50px;
+    height: 50px;
+    border: 3px solid #DADADA;
+    cursor: pointer;
+}
+
+.hoverclass:hover{
+    width: 50px;
+    height: 50px;
+    border: 3px solid green;
+    cursor: pointer;
+    background: #E0F2F7;
+}
+
+.selected_cross{
+    background:  no-repeat url(../images/cross-blue.png);    
+}
+.selected_dot{
+    background:  no-repeat url(../images/dot-purple.png);    
+}
+.winner{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#GameLog{
+    margin-left: 10px;
+    height: 300px;
+    color: green;
+    border-left: 2px solid #6E6E6E;
+    text-align: left;
+    padding-left: 20px;
+}
+.heading{
+    font-size: 20px; 
+}
+#GameLog ul{
+    margin-top: 10px;
+}
+sample{
+    
+}
+
+/*** Type Writing ***/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

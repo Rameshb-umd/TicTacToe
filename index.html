@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">		
+		<title>Home Work - Tic Tac Toe Game</title>	
+		<link rel="stylesheet" href="css/style.css" media="all" />
+		<script src="js/jquery-1.4.2.min.js"></script>
+		<script src="js/tictactoe.js"></script>
+        <script src="js/typed.js"></script>
+
+	</head>
+	<body>	
+		<div id="container">
+            <header>
+                    Tic Tac Toe
+            </header>
+            <br>
+            <br>
+            
+            <section id="GameSection">
+                 <label>Player 1 :</label> <input type="text" id="player1" class="inputbox" value="Enter Player 1 name"/>
+                    <br>
+                    <label>Player 2 :</label> <input type="text" id="player2" class="inputbox" value="Enter Player 2 name"/>
+                    <br>
+                    <br>
+               <table width="100%"><tr><td width="60%">                  
+                <div id="Playedetails">
+                    
+                    <table id="box" align="right" border="2">
+                        <tr>
+                            <td class="hoverclass">&nbsp;</td>
+                            <td class="hoverclass">&nbsp;</td>
+                            <td class="hoverclass">&nbsp;</td>
+                        </tr>
+                        <tr class="middletr">
+                            <td class="hoverclass">&nbsp;</td>
+                            <td class="hoverclass">&nbsp;</td>
+                            <td class="hoverclass">&nbsp;</td>
+                        </tr><tr>
+                            <td class="hoverclass">&nbsp;</td>
+                            <td class="hoverclass">&nbsp;</td>
+                            <td class="hoverclass">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div></td><td>
+                <div id="GameLog">
+                    <label class="heading"> Game Log </label>
+                    <ul id="GameLogContents"> 
+                    </ul>
+                </div></td>
+                   </tr>
+                   </table>
+            </section>
+						
+		</div>
+        <footer id="footer">
+				<p class="copyright">RAMESH &copy; 2015 |  INST 631 Fundamentals of Human Computer Interaction | Assignment 08/29/2015 </p>
+        </footer>
+	</body>
+</html>
