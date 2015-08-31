@@ -101,6 +101,11 @@ footer p{
 .selected_dot{
     background:  no-repeat url(../images/dot.png);    
 }
+.winner{
+    font-size: 20px;
+    font-weight: bold;
+
+}
 #GameLog{
     margin-left: 10px;
     height: 300px;
