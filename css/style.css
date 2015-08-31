@@ -55,7 +55,7 @@ footer p{
 }
 .inputbox{
     border: 1px solid #DADADA;
-    color: #888;
+    color: green;
     height: 30px;
     margin-bottom: 16px;
     margin-right: 6px;
@@ -90,16 +90,16 @@ footer p{
 .hoverclass:hover{
     width: 50px;
     height: 50px;
-    border: 3px solid #DADADA;
+    border: 3px solid green;
     cursor: pointer;
     background: #E0F2F7;
 }
 
 .selected_cross{
-    background:  no-repeat url(../images/cross.png);    
+    background:  no-repeat url(../images/cross-blue.png);    
 }
 .selected_dot{
-    background:  no-repeat url(../images/dot.png);    
+    background:  no-repeat url(../images/dot-purple.png);    
 }
 .winner{
     font-size: 20px;
